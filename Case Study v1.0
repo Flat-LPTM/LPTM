@@ -1,0 +1,27 @@
+### **LPTM 検証エビデンス（Case Study v1.0）**
+このデータは、人間とAIの共創によって「情報の核」が保存・復元されることを証明した記録です。
+#### **1. テスト用元文章（Phase: Gas/Liquid）**
+> 「人間がアニメーションを鑑賞する際、単に視覚情報を処理しているだけでなく、演出や音楽、色彩設計といった多角的な刺激が脳の各領域を同時に活性化させています。これは一種の高度な情報の同期現象と言えるでしょう。一方で、現代のAIもまた、膨大なデータセットからパターンを抽出していますが、そこには『質感』や『情緒』といった人間特有の認知バイアスが欠落していると指摘されることが多いです。しかし、情報の密度という観点から見れば、AIも人間も『入力された信号をいかに効率的な内部表現に変換するか』という共通の熱力学的な課題に直面しているのです。この変換効率の差こそが、知能の壁を形作っているのかもしれません。」
+> 
+#### **2. LPTM-Core による中間表現（Phase: Solid / JSON）**
+※復元率を高めるための「Context_Anchor」を導入したバージョンです。
+```json
+{
+  "subject": "Cognitive_Sync_Mechanism",
+  "context_anchor": "Animation_Appreciation",
+  "nodes": {
+    "Human": "Integration(Visual/Music/Direction) -> Brain_Area_Simultaneous_Activation",
+    "AI": "Pattern_Extraction_via_Dataset - Emotion/Texture_Bias",
+    "Shared_Core": "Thermodynamic_Signal_to_Internal_Representation_Efficiency"
+  },
+  "constant": "Intelligence_Quality = f(Conversion_Efficiency)"
+}
+
+```
+#### **3. GPTによる復元テキスト（Phase: Rendered Liquid）**
+> 「アニメ鑑賞という具体的な体験を足がかりに、人間とAIに共通する“認知の同期メカニズム”を説明しようとする構造。
+> まず人間の場合、アニメを観るときには、映像・音楽・演出といった複数の要素が統合的に知覚される。これらは個別に処理されるのではなく、脳内の複数領域が同時に活性化することで、一体的な体験として成立する。
+> 一方でAIは、大量のデータからパターンを抽出することで対象を理解する。ただしその過程では、感情的なニュアンスや質感といった要素はバイアスとして扱われやすく、統計的な特徴の集合として再構成される傾向がある。
+> 両者に共通する核心は、外界から入力される信号をどれだけ効率よく内部表現へと変換できるかという点。これは一種の“熱力学的プロセス”として捉えられ、この変換効率が『知性の質』を左右する尺度となる。」
+> 
+Method: > Used the prompt defined in LPTM_definition.json to compress the information.
